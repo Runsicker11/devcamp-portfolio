@@ -20,3 +20,4 @@ end
    UnzViewTool::Renderer.copyright 'Riley Unsicker', 'All rights reserved'
  end
 end
+
