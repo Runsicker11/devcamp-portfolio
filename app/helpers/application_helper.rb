@@ -15,4 +15,8 @@ def  source_helper(layout_name)
    content_tag(:p, greeting, class: "source-greeting")
    end
 end
+
+ def copyright_generator
+   UnzViewTool::Renderer.copyright 'Riley Unsicker', 'All rights reserved'
+ end
 end
