@@ -238,11 +238,12 @@ h6, .h6 {
 .app-card-container {
   color: black;
   text-align: left;
-  
 }
 
 .app-card-container >.card {
-  padding: 40px;
+  padding: 20px;
+  margin-top: 80px;
+  margin-bottom: 60px;
 }
 
 .profile-img {
@@ -261,5 +262,9 @@ h6, .h6 {
 .skill {
   margin-bottom: 5px;
   margin-top: 5px;
+}
+.map {
+   vertical-align: center;
+   padding-bottom: 60px;
 }
 
