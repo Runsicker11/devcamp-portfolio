@@ -8,6 +8,9 @@ class CommentBroadcastJob < ApplicationJob
   private
   
   def render_comment(comment)
-    CommentsController.render partial: 'comments/coment', locals: {comment: comment }
+    
+    # The error was on this line. You had comment spelt coment. I changed that and it made the comments post without page refresh.
+    
+    CommentsController.render partial: 'comments/comment', locals: {comment: comment }
   end
 end
